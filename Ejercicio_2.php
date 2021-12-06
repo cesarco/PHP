@@ -1,10 +1,10 @@
 <?php
 
-/* Con esta condicional nos evita que 
+/* 
+Con esta condicional nos evita que 
 nos salga un warning al momento de imprimir en la linea 7;
 En este caso si, se recibe algo por el metodo post ejecutara 
 las lineas 11 y 12;
-
 */
 if($_POST){
 // Recibir informacion del formulario HTML (Método POST)
