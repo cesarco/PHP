@@ -11,8 +11,9 @@ class persona {
 }
 
 $objetoAlumno = new persona(); // instacion p creacion de un objeto
-
 $objetoAlumno->asignarNombre("Cesar"); // llamando un metodo
+
+
 
 echo $objetoAlumno->nombre; // imprimir una propiedad
 ?>
