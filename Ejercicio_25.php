@@ -22,7 +22,10 @@ class persona {
         return $this->edad;
     }
 }
-
+/*  con la herencia podemos heredar de una clase
+     principal, como lo es la clase persona, en donde puedo
+      utlizar y agregar mas propiedades, metodos...
+*/
 class trabajador extends persona {
     public $puesto; // Propiedad nueva
     public function saludoTrabajador(){
