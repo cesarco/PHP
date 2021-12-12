@@ -4,6 +4,10 @@ class persona {
 
     public $nombre; // propiedades
 
+    private $edad; // se puede utilizar desde la misma clase en que se creo o se definio
+
+    protected $altura; // se accede desde la misma clase y tambien de las clases heredadas
+
     public function asignarNombre($nuevoNombre){ // acciones o metodos..
 
             $this->nombre=$nuevoNombre;
@@ -11,6 +15,11 @@ class persona {
 
     public function imprimirNombre(){
         echo " Hola soy ".$this->nombre;
+    }
+
+    public function mostrarEdad(){
+        $this->edad = 20;
+        return $this->edad;
     }
 }
 
@@ -23,6 +32,8 @@ $objetoAlumno2->imprimirNombre(); // llamando un metodo
 
 
 echo $objetoAlumno->nombre;
-echo $objetoAlumno2->nombre; // imprimir una propiedad
+echo $objetoAlumno2->mostrarEdad();
+
+ // imprimir una propiedad
  // imprimir una propiedad
 ?>
