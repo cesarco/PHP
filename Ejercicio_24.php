@@ -23,10 +23,10 @@ class persona {
     }
 }
 
-$objetoAlumno = new persona(); // instacion p creacion de un objeto
+$objetoAlumno = new persona($nuevoNombre); // instacion p creacion de un objeto
 $objetoAlumno->asignarNombre("Cesar"); // llamando un metodo
 
-$objetoAlumno2 = new persona(); // instacion p creacion de un objeto
+$objetoAlumno2 = new persona($nuevoNombre); // instacion p creacion de un objeto
 $objetoAlumno2->asignarNombre("Maria");
 $objetoAlumno2->imprimirNombre(); // llamando un metodo
 
