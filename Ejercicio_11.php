@@ -16,7 +16,7 @@ if($_POST){
     echo "<br>".$division;
    if($valorA==$valorB){
 
-    echo "El valor de A es igual a valor de B". "<br/>";
+    echo "El valor de A es igual a el valor de B". "<br/>";
 
     if($valorA == 4){
         echo "El valor es 4". "<br/>";
