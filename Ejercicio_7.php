@@ -2,7 +2,7 @@
 
 $edad = 32; // Por ser una variable podemos cambiar el valor, como ejemplo la linea 3 y 7
 
-echo $edad. "<br/>";
+echo $edad."<br/>";
 
 $edad = 40;
 
