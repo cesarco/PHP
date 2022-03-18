@@ -10,7 +10,7 @@ if($_POST){
     }
 
     if(( $valorA > $valorB) || ($valorA != $valorB)){
-        echo "El valor de A es diferente al de B y tambien es mayor";
+        echo "El valor de A es mayor al de B y tambien es mayor";
     }
 }
 ?>
