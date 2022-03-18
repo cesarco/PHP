@@ -33,7 +33,7 @@ class trabajador extends persona {
     }
 }
 
-$objetoTrabajador= new trabajador(); // instacion p creacion de un objeto
+$objetoTrabajador= new trabajador($saludoTrabajador); // instacion p creacion de un objeto
 $objetoTrabajador->asignarNombre("Cesar R."); // llamando un metodo
 
 $objetoTrabajador->puesto = "Developer";
