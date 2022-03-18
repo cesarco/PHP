@@ -2,12 +2,14 @@
 
 /* 
 Con esta condicional nos evita que 
-nos salga un warning al momento de imprimir en la linea 7;
+nos salga un warning al momento de imprimir en la linea 9;
 En este caso si, se recibe algo por el metodo post ejecutara 
 las lineas 11 y 12;
+La condicional se ejucatara si en el metodo post tiene informacion
 */
-if($_POST){
-// Recibir informacion del formulario HTML (Método POST)
+// Recibir informacipon del formulario HTML (Método POST)
+if($_POST){ 
+# Recibir informacion del formulario HTML (Método POST)
 $nombre = $_POST['txtNombre'];
 echo "Hola ".$nombre;
 }
@@ -25,7 +27,8 @@ echo "Hola ".$nombre;
 </head>
 
 <body>
-    
+    #El formulario liena 30  esa informacion que esta dentro se envia a si mismo 
+    #y recepciona en el codigo de PHP, por medio del metodo post
     <form action="ejercicio_2.php" method="POST">
         Nombre:
         <input type="text" name="txtNombre" id="">
