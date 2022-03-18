@@ -16,6 +16,7 @@ if($_POST){
     echo "<br>".$resta;
     echo "<br>".$multi;
     echo "<br>".$division;
+    
    
 
 }
